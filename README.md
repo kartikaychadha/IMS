@@ -1,5 +1,4 @@
-# IMS
-## Investigating the frequency of DNA words near loci associated with human complex traits
+# Investigating the frequency of DNA words near loci associated with human complex traits
 
 **Author:**
 
@@ -36,5 +35,8 @@ Some words enriched in GC content have significantly higher frequency around thy
 
   Thesis release date : To be announced <br /> 
   Thesis Link         : To be announced
+
+**GITHUB RELEASE DATE:**
+2018-07-17
 
 For any questions or concern please contact the author at: kartikay.chadha2011@gmail.com 
