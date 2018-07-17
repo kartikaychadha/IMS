@@ -32,7 +32,7 @@
 
   This Githut repository release contains all codes to perform the analysis described in the MSC. Thesis undertaken by the Kartikay Chadha at the University of Toronto. 
 
-  Thesis release date : To be announced 
-  Thesis Link         : To be announced
+  Thesis release date : To be announced__ 
+  Thesis Link         : To be announced__
 
 For any questions or concern please contact the author at: kartikay.chadha2011@gmail.com 
