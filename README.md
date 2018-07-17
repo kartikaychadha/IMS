@@ -25,8 +25,8 @@
 
 **Abstract:**
 
-Genome-wide association studies and expression quantitative trait loci (eQTL) studies haveidentified thousands of variants associated with complex diseases and gene expression levels.The frequency of DNA words associated with these variants has not been extensively evaluated.These words may help understand the biological role of trait-associated variants and also enable their identification in future studies. <br />
-An exact word-counting method was developed to investigate the hypothesis that short DNA words have different frequencies near single nucleotide polymorphisms (SNPs) associated with (1) Alzheimer’s disease and (2) thyroid eQTLs, compared to the rest of the genome. No significant DNA words were found near AD associated SNPs. <br />
+Genome-wide association studies and expression quantitative trait loci (eQTL) studies haveidentified thousands of variants associated with complex diseases and gene expression levels.The frequency of DNA words associated with these variants has not been extensively evaluated.These words may help understand the biological role of trait-associated variants and also enable their identification in future studies. <br /><br />
+An exact word-counting method was developed to investigate the hypothesis that short DNA words have different frequencies near single nucleotide polymorphisms (SNPs) associated with (1) Alzheimer’s disease and (2) thyroid eQTLs, compared to the rest of the genome. No significant DNA words were found near AD associated SNPs. <br /><br />
 Some words enriched in GC content have significantly higher frequency around thyroid’s eQTLs compared to controls. TheseDNA words were no longer significant when the controls were matched for nucleotide frequency, but this is likely due to over-matching.
 
 
