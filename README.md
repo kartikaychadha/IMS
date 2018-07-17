@@ -1,19 +1,28 @@
 # IMS
-Investigating the frequency of DNA words near loci associated with human complex traits
+##Investigating the frequency of DNA words near loci associated with human complex traits
 
-Authors:
+*Author:*
 
-Kartikay Chadha
-Dr. Jo Knight
-Dr. Andrew Paterson
+-Kartikay Chadha
 
-Affiliations:
+*Supervisors:*
+-Dr. Jo Knight
+-Dr. Andrew D. Paterson
 
-Institute of Medical Science, University of Toronto.
-The hospital for Sick Children, Toronto.
-Lancaster University, United Kingdom.
+*Program Advisory Committe:*
+-Dr. Michael D. Wilson
+-Dr. Mario Masellis
 
-Abstract: Genome-wide association studies and expression quantitative trait loci (eQTL) studies haveidentified thousands of variants associated with complex diseases and gene expression levels.The frequency of DNA words associated with these variants has not been extensively evaluated.These words may help understand the biological role of trait-associated variants and also enable their identification in future studies.
+*Affiliations:*
+
+-Centre for Addiction and Mental Health, Toronto
+-Institute of Medical Science, University of Toronto.
+-The hospital for Sick Children, Toronto.
+-Lancaster University, United Kingdom.
+-Sunnybrook Health Sciences Centre, Toronto. 
+
+*Abstract:*
+Genome-wide association studies and expression quantitative trait loci (eQTL) studies haveidentified thousands of variants associated with complex diseases and gene expression levels.The frequency of DNA words associated with these variants has not been extensively evaluated.These words may help understand the biological role of trait-associated variants and also enable their identification in future studies.
 An exact word-counting method was developed to investigate the hypothesis that short DNA
 words have different frequencies near single nucleotide polymorphisms (SNPs) associated with (1) Alzheimer’s disease and (2) thyroid eQTLs, compared to the rest of the genome.
 No significant DNA words were found near AD associated SNPs. Some words enriched in GC
@@ -21,7 +30,7 @@ content have significantly higher frequency around thyroid’s eQTLs compared to
 frequency, but this is likely due to over-matching
 
 
-NOTE: 
+*NOTE:* 
 
 This Githut repository release contains all codes to perform the analysis described in the MSC. Thesis undertaken by the Kartikay Chadha at the University of Toronto. 
 
