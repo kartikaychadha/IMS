@@ -31,7 +31,7 @@ Some words enriched in GC content have significantly higher frequency around thy
 
 **NOTE:** 
 
-  This Githut repository release contains all codes to perform the analysis described in the MSC. Thesis undertaken by the Kartikay Chadha at the University of Toronto. 
+  This Githut repository release contains all codes to perform the analysis described in the MSc. Thesis undertaken by the Kartikay Chadha at the University of Toronto. 
 
   Thesis release date : To be announced <br /> 
   Thesis Link         : To be announced <br />
