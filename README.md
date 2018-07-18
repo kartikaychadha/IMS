@@ -9,7 +9,7 @@
   - Dr. Jo Knight
   - Dr. Andrew D. Paterson
 
-**Program Advisory Committe members:**
+**Program Advisory Committee members:**
 
   - Dr. Michael D. Wilson
   - Dr. Mario Masellis
