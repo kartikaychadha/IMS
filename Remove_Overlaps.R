@@ -6,7 +6,7 @@
 # Git rel-Date:    2018-07-17
 # ====================================================================
 #
-#-------------------------CODE 1 (THIS IS NOT A FUNCTION)-----------------------------
+#-------------------------Function 1-----------------------------
 #
 # Call- name:   Remove_Overlaps(data,x)
 # Purpose:      Remove SNPs with possible overlaps in flanking sequence. 
