@@ -9,7 +9,7 @@
   - Dr. Jo Knight
   - Dr. Andrew D. Paterson
 
-**Program Advisory Committe:**
+**Program Advisory Committe members:**
 
   - Dr. Michael D. Wilson
   - Dr. Mario Masellis
@@ -34,7 +34,8 @@ Some words enriched in GC content have significantly higher frequency around thy
   This Githut repository release contains all codes to perform the analysis described in the MSC. Thesis undertaken by the Kartikay Chadha at the University of Toronto. 
 
   Thesis release date : To be announced <br /> 
-  Thesis Link         : To be announced
+  Thesis Link         : To be announced <br />
+  Thesis Defense date : 2018-07-27
 
 **GITHUB RELEASE DATE:**
 2018-07-17

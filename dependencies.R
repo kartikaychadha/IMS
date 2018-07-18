@@ -16,7 +16,7 @@
 #
 #-------------------------Function 1-----------------------------
 #
-# Call- name:   find_overlaps
+# Call- name:   find_overlaps(pattern,string)
 # Purpose:      To claculate overlaps
 #
 # Desc:         Search occurance of p in s; including overlaps 
@@ -25,7 +25,7 @@
 # Depends:      NA
 # Inputs:       p (pattern) to be searched in s (string)- p, s 
 # Output:       Count (numeric)
-#
+
 
 find_overlaps <- function(p,s) {
   gg <- gregexpr(paste0("(?=",p,")"),s,perl=TRUE)[[1]]
@@ -36,14 +36,15 @@ find_overlaps <- function(p,s) {
 #
 #-------------------------Function 2-----------------------------
 #
-# Call- name:   CochranArmitageTest
+# Call- name:   CochranArmitageTest(Contigency Table, paramters)
 # Purpose:      Cochran Armitage Trend Test
 #
 # Desc:         Manual Link:
 #               http://cran.wustl.edu/web/packages/DescTools/DescTools.pdf
 #
 # Depends:      NA
-# Inputs:       Numeric Table, parameters (two.sided,increasing,decreasing)
+# Inputs:       Numeric Table (Contigency table)
+#               parameters (two.sided,increasing,decreasing)
 # Output:       Statictics, DIM, p-value
 #
 #Citation:      Andri Signorell et mult. al. (2016). DescTools: Tools for descriptive statistics. R package version 0.99.17
@@ -94,40 +95,18 @@ CochranArmitageTest <- function(x, alternative = c("two.sided","increasing","dec
 #
 #-------------------------Function 3-----------------------------
 #
-# Call- name:   Freq_DNAwords
-# Purpose:      Returns the frequency of a DNA word in all Fasta sequences. 
+# Call- name:   randomRows(DataFrame, NumberOfsequences)
+# Purpose:      Randomly select rows in a dataFrame
 #
-# Desc:         Manual Link:
-#               http://cran.wustl.edu/web/packages/DescTools/DescTools.pdf
+# Depends:      NA
 #
-# ToDo:         Define minimum frequecy as m
-# Note:         minimum frequency = 1 (default) i.e., atleast 1 time occurance in a sequence. 
-#               To run code for all sequences: define m = -1
+# Inputs:       Dataframe with multiple rows
+#               Number of Rows to be returned 
 #
-# Depends:      find_overlaps() --Function 1 
-#
-# Inputs:       data - Fasta file (data frame) with alternate line as fasta sequence 
-#               starting with first line as description line 
-# Outputs:      dataframe
-#               Column 1: description line of the seqeunce
-#               Column 2: Frequency of DNA words in that sequence 
-#
+# Output:       Random rows returned 
 #
 
-Freq_DNAwords <- function(data, DNAword, m = 1){
-  k <- 0
-  x <- data.frame()
-  counter <- 1
-  for(i in 1:(nrow(data)/2))
-  {
-    k=k+2
-    if(find_overlaps(as.character(DNAword),data[k,1])>m)
-    {
-      x[counter,1]<-data[k-1,1]
-      x[counter,2]<-find_overlaps(as.character(DNAword),data[k,1])
-      counter = counter + 1 
-    }
-    
-  }
-  return (x)
+
+randomRows<-function(df,n){
+  return(df[sample(nrow(df),n),])
 }
