@@ -17,7 +17,7 @@
 #               
 #
 # Depends:      find_overlaps()
-# Inputs:       data - Fasta file (data frame) [Columns=1; Rows=Number of seq x2]-- SEE Example Files/fasta_example.fasta  
+# Inputs:       data - Fasta file (data frame) [Columns=1; Rows=Number of seq x2]-- SEE Example Files/fasta_example.txt 
 #               groups of DNA words (data frame)[Columns=2; Rows=Number of possible sequences]--See Example Files/groups_DNAwords_5mer.csv
 #
 #
@@ -35,10 +35,10 @@ Count_DNAwords <- function(fasta_data_frame, features_data_frame){
   {
     k<-k+2
     
-    for(j in 1:ncol(features_data_frame))
+    for(j in 1:nrow(features_data_frame))
     {
       count<-0
-      count<-find_overlaps(features_data_frame[1,j],fasta_data_frame[k,1])+find_overlaps(features_data_frame[2,j],fasta_data_frame[k,1])+find_overlaps(features_data_frame[3,j],fasta_data_frame[k,1])+find_overlaps(features_data_frame[4,j],fasta_data_frame[k,1])
+      count<-find_overlaps(features_data_frame[j,1],fasta_data_frame[k,1])+find_overlaps(features_data_frame[j,2],fasta_data_frame[k,1])
       result[j,i]<-count
       
     }

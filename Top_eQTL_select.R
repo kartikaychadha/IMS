@@ -11,7 +11,7 @@
 # Call- name:   Top_eQTL_select
 # Purpose:      Returns the SNP-gene pair with minimum P-value. Only one pair is returned incase more than 1 pair has Pval = Min(Pval)
 #
-# Note:         
+# Note:         Present in working directory. 
 #               
 #
 # Depends:      randomRows()

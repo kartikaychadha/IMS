@@ -18,7 +18,7 @@
 #
 # Depends:      find_overlaps() --Function 1 
 #
-# Inputs:       data - Fasta file (data frame) [Columns=1; Rows=Number of seq x2]-- SEE Example Files/fasta_example.fasta  
+# Inputs:       data - Fasta file (data frame) [Columns=1; Rows=Number of seq x2]-- SEE Example Files/fasta_example.txt
 #               DNAword : Single string entry. Eg: "AAAAA" 
 #               m : Threshold cut-off frequency 
 #
