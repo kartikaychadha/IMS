@@ -8,7 +8,7 @@
 #
 #-------------------------Function 1-----------------------------
 #
-# Call- name:   Count_DNAwords(fatsa_data_fram, groups_of_DNAwords)
+# Call- name:   Count_DNAwords(fatsa_data_frame, groups_of_DNAwords)
 # Purpose:      Count the occurance of all groups of DNA words in all fasta seqeunces
 #
 # Note:         Count the occurance of each group of DNA word in each sequence and returns a matrix:

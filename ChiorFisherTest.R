@@ -37,7 +37,7 @@
 #
 ChiorFisherTest <- function(matrix_AOI, matrix_ANOI, no_of_features ) {
   
-  chi_fisher_cells <- data.frame(feature_no = numeric(0),AOI_pre = numeric(0),AOI_abs = numeric(0), ANOI_pre =numeric(0),ANOI_abs = numeric(0), chi_fis = character(0), stat_OR = numeric(0), p_value = numeric(0), stringsAsFactors = F)
+  chi_fisher_cells <- data.frame(feature_no = numeric(0),VOI_pre = numeric(0),VOI_abs = numeric(0), CS_pre =numeric(0),CS_abs = numeric(0), chi_fis = character(0), stat_OR = numeric(0), p_value = numeric(0), stringsAsFactors = F)
   for(i in 1:no_of_features)
   {
     chi_fisher_cells[i,1]<-i
