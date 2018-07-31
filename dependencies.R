@@ -110,3 +110,48 @@ CochranArmitageTest <- function(x, alternative = c("two.sided","increasing","dec
 randomRows<-function(df,n){
   return(df[sample(nrow(df),n),])
 }
+
+#
+#
+#-------------------------Function 4-----------------------------
+#
+# Call- name:   rev.comp(DNAstring, Reverse=T)
+# Purpose:      Finds the reverse complement of a string 
+#
+# Depends:      NA
+#
+# Inputs:       DNA sequnces 
+#               
+#
+# Output:       Reverse Complemtent Sequence. 
+#
+rev.comp<-function(x,rev=TRUE)
+{
+  x<-toupper(x)
+  y<-rep("N",nchar(x))
+  xx<-unlist(strsplit(x,NULL))
+  for (bbb in 1:nchar(x))
+  {
+    if(xx[bbb]=="A") y[bbb]<-"T"    
+    if(xx[bbb]=="C") y[bbb]<-"G"    
+    if(xx[bbb]=="G") y[bbb]<-"C"    
+    if(xx[bbb]=="T") y[bbb]<-"A"
+  }
+  if(rev==FALSE) 
+  {
+    for(ccc in (1:nchar(x)))
+    {
+      if(ccc==1) yy<-y[ccc] else yy<-paste(yy,y[ccc],sep="")
+    }
+  }
+  if(rev==T)
+  {
+    zz<-rep(NA,nchar(x))
+    for(ccc in (1:nchar(x)))
+    {
+      zz[ccc]<-y[nchar(x)+1-ccc]
+      if(ccc==1) yy<-zz[ccc] else yy<-paste(yy,zz[ccc],sep="")
+    }
+  }
+  return(yy)  
+}
