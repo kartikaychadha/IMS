@@ -1,4 +1,4 @@
-"X1","X2","feature_no","AOI_pre","AOI_abs","ANOI_pre","ANOI_abs","chi_fis","stat_OR","p_value"
+"X1","X2","feature_no","VOI_pre","VOI_abs","CS_pre","CS_abs","chi_fis","stat_OR","p_value"
 "AAAAA","TTTTT",1,251,104,167,92,"chi",2.39180391294051,0.12197280780793
 "AAAAT","ATTTT",2,245,110,178,81,"chi",1.95753103738072e-30,0.999999999999999
 "AAAAG","CTTTT",3,210,145,151,108,"chi",0.016705840250359,0.897158983526651
