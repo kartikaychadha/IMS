@@ -49,7 +49,7 @@ cl <- makeCluster(cores[1]-1) #not to overload your computer
 registerDoParallel(cl)
 
 #Change number of runs here 
-foreach(i=1:1000,.export = 'fread') %dopar% {
+foreach(i=1:2,.export = 'fread') %dopar% {
   
   #Reading files 
   #Change file names and column number here
@@ -62,6 +62,7 @@ foreach(i=1:1000,.export = 'fread') %dopar% {
   write.csv(result,paste(i,"Result.csv",sep = ""),row.names = F)
   remove(m)
   remove(n)
+  remove(result)
   
  
   
