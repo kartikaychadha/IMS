@@ -21,15 +21,14 @@
 
 **Wilcox test (ditribution of counts in groups with P>=0.95 and P<0.95)**
 
-  -W = 6269.5, p-value = 0.2221
+  - W = 6269.5, p-value = 0.2221
 
-  -Groups with P>=0.95 (30 groups)
-  
-        * Mean   : 154.1667
-        * Median : 167.5
-        * Mode   : 111.5762
+  - Groups with P>=0.95 (30 groups)
+    - Mean   : 154.1667
+    - Median : 167.5
+    - Mode   : 111.5762
 
-  - Groups with P<0.95 (482)
+  - Groups with P<0.95 (482 groups)
   
   
         * Mean   : 174.5187
