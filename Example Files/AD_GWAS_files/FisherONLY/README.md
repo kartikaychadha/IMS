@@ -25,15 +25,16 @@
 
   -Groups with P>=0.95 (30 groups)
   
-      * Mean   : 154.1667
-      * Median : 167.5
-      * Mode   : 111.5762
+        * Mean   : 154.1667
+        * Median : 167.5
+        * Mode   : 111.5762
 
   - Groups with P<0.95 (482)
   
-      * Mean   : 174.5187
-      * Median : 189
-      * Mode   : 88.47232
+  
+        * Mean   : 174.5187
+        * Median : 189
+        * Mode   : 88.47232
 
 
 **Wilcox test (ditribution of counts in groups with P=1 and P<1)**
@@ -41,12 +42,14 @@
   - W = 6279.5, p-value = 0.9588
 
   - Groups with P=1 (26 groups)
-
+  
+  
       * Mean   : 173.8077
       * Median : 188.5
       * Mode   : 173.8077
 
   - Groups with P<1 (486)
+
 
       * Mean   : 173.3004
       * Median : 188
