@@ -1,6 +1,6 @@
 # Permutation_parallel.R
 #
-# Version:   0.1
+# Version:   0.2
 # Author:    Kartikay Chadha
 #
 # Git rel-Date:    2018-08-02
@@ -52,12 +52,13 @@ registerDoParallel(cl)
 foreach(i=1:1000,.export = 'fread') %dopar% {
   
   #Reading files 
-  #Change file names here
-  m<-fread(paste(i,"AOI.csv",sep = ""),select = c(2))
-  n<-fread(paste(i,"ANOI.csv", sep = ""),select = c(2))
+  #Change file names and column number here
+  m<-fread(paste(i,"SOI.csv",sep = ""),select = c(1))
+  n<-fread(paste(i,"CS.csv", sep = ""),select = c(1))
   
   #Performing analysis 
-  result<-FisherUsingFasta(m,n,groups_DNAwords_5mer)
+  #Change n here: n=1 if seq dataframe has descrpition lines or else n=0
+  result<-FisherUsingFasta(m,n,groups_DNAwords_5mer,n=0)
   write.csv(result,paste(i,"Result.csv",sep = ""),row.names = F)
   remove(m)
   remove(n)
