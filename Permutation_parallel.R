@@ -46,10 +46,11 @@ library(doParallel)
 #setup parallel backend to use many processors
 cores=detectCores()
 cl <- makeCluster(cores[1]-1) #not to overload your computer
+clusterExport(cl, c("FisherUsingFasta"))
 registerDoParallel(cl)
 
 #Change number of runs here 
-foreach(i=1:2,.export = 'fread') %dopar% {
+foreach(i=1:1000,.export = 'fread') %dopar% {
   
   #Reading files 
   #Change file names and column number here
