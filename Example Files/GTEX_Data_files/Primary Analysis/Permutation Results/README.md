@@ -1,4 +1,4 @@
-Permutation Results:
+# Permutation Results:
 
 * N= 1000
 
