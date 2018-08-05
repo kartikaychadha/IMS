@@ -1,4 +1,4 @@
-# GTEX Thyroid data analysis - Summary of Analysis 
+# GTEX Thyroid data analysis - Summary 
 
 **After dropping:**
 
@@ -15,8 +15,9 @@
 **Results:**
 
   - Number of groups survived
-      * Nominally signifcant groups : 16
+      * Nominally signifcant groups : 15
       * Bonff. thresold (0.05/512 = 9.77e-5)  : 0
+      * MTC (0.0003196315 ) : 0
 
   - Wilcox test (ditribution of counts in groups with P=1 and P<1 )
       * W = 15373, p-value = 5.727e-09
@@ -26,7 +27,7 @@
       * Median : 23
       * Mode   : 19.66596
 
-  - Groups with P<1 (391)
+  - Groups with P<1 (391 groups)
       * Mean   : 38.43223
       * Median : 35
       * Mode   : 23.60801

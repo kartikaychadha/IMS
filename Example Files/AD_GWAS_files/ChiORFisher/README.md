@@ -1,4 +1,4 @@
-# AD GWAS analysis - Summary of Analysis 
+# AD GWAS Data analysis - Summary 
 
 **After dropping:**
 
