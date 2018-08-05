@@ -1,5 +1,7 @@
 # AD GWAS Data analysis - Summary 
 
+## THIS ANALYSIS IS NOT DOCUMENTED IN THESIS TEXT
+
 **After dropping:**
 
   - Seqeunces of Interest (SOI) : 355
