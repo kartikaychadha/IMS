@@ -15,7 +15,7 @@
 **Results:**
 
   - Number of groups survived
-      * Nominally signifcant groups : 294
+      * Nominally significant groups : 294
       * Bonff. thresold (0.05/512 = 9.77e-5)  : 125
       
 

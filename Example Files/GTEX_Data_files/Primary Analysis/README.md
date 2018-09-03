@@ -5,18 +5,18 @@
   - Seqeunces of Interest (SOI) : 9103
   - Control sequences (CS) : 9103
 
-**Groups of DNA words :** 512 
+**Groups of DNA words :** 512 (3 groups absent in dataset)
 
 **Statistical tests**
 
   - Chi-squared : 0
-  - Fisher’s    : 512
+  - Fisher’s    : 509
 
 **Results:**
 
   - Number of groups survived
       * Nominally signifcant groups : 15
-      * Bonff. thresold (0.05/512 = 9.77e-5)  : 0
+      * Bonff. thresold (0.05/509 = 9.82e-5)  : 0
       * MTC (0.0003196315 ) : 0
 
   - Wilcox test (ditribution of counts in groups with P=1 and P<1 )
